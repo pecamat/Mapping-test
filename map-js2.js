@@ -404,7 +404,7 @@ function downloadResults() {
   doc.link(shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10, { url: linkUrl2 });
 
 
-  const logoLinkBoxX = 145;
+  const logoLinkBoxX = 165;
   const logoLinkBoxY = 15;
   const logoLinkBoxWidth = 30;
   const logoLinkBoxHeight = 10;
