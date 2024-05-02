@@ -387,16 +387,16 @@ function downloadResults() {
 
   const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339b4a702b6a7e1fde7638_Learn%20more.png';
   const learnTestButtonWidth = 26;
-  const learnTestButtonX = 73;
+  const learnTestButtonX = 63;
   const learnTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(learnTestButtonUrl, 'PNG', learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10);
 
   const linkUrl = 'https://www.supernova.io/blog/introducing-the-design-system-mapping-tool-aligning-and-elevating-your-design-system';
   doc.link(learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10, { url: linkUrl });
 
-  const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339934c313c834fda94865_Share%20on%20twitter.png';
+  const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6633a5324976f105ddd9f25f_Share%20on%20twitter.png';
   const shareTestButtonWidth = 34;
-  const shareTestButtonX = 103;
+  const shareTestButtonX = 93;
   const shareTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(shareTestButtonUrl, 'PNG', shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10);
 
