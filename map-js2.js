@@ -378,14 +378,14 @@ function downloadResults() {
   const x = (pageWidth - imageWidth) / 2;
   const scaleGap = 27.5;
 
-  doc.addImage(goalScaleUrl, 'PNG', x, 100, imageWidth, imageHeight);
-  doc.addImage(methodScaleUrl, 'PNG', x, 100 + imageHeight + scaleGap, imageWidth, imageHeight);
-  doc.addImage(themingScaleUrl, 'PNG', x, 100 + 2 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(governanceScaleUrl, 'PNG', x, 100 + 3 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(structureScaleUrl, 'PNG', x, 100 + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(focusScaleUrl, 'PNG', x, 100 + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(goalScaleUrl, 'PNG', x, 102, imageWidth, imageHeight);
+  doc.addImage(methodScaleUrl, 'PNG', x, 102, + imageHeight + scaleGap, imageWidth, imageHeight);
+  doc.addImage(themingScaleUrl, 'PNG', x, 102, + 2 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(governanceScaleUrl, 'PNG', x, 102, + 3 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(structureScaleUrl, 'PNG', x, 102, + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(focusScaleUrl, 'PNG', x, 102, + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
 
-  const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/648acc636853962bcd6aced0_learn-button.png';
+  const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339934b234725e28e95eea_Learn%20more.png';
   const learnTestButtonWidth = 26;
   const learnTestButtonX = 111;
   const learnTestButtonY = doc.internal.pageSize.getHeight() - 25;
@@ -394,7 +394,7 @@ function downloadResults() {
   const linkUrl = 'https://www.supernova.io/blog/introducing-the-design-system-mapping-tool-aligning-and-elevating-your-design-system';
   doc.link(learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10, { url: linkUrl });
 
-  const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/648acd4a4571f61b4ddb0e27_share-twitter-button.png';
+  const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339934c313c834fda94865_Share%20on%20twitter.png';
   const shareTestButtonWidth = 34;
   const shareTestButtonX = 73;
   const shareTestButtonY = doc.internal.pageSize.getHeight() - 25;
@@ -406,7 +406,7 @@ function downloadResults() {
 
   const logoLinkBoxX = 145;
   const logoLinkBoxY = 15;
-  const logoLinkBoxWidth = 50;
+  const logoLinkBoxWidth = 40;
   const logoLinkBoxHeight = 10;
   doc.link(logoLinkBoxX, logoLinkBoxY, logoLinkBoxWidth, logoLinkBoxHeight, { url: 'https://www.supernova.io' });
 
