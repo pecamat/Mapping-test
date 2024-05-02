@@ -359,7 +359,7 @@ function downloadResults() {
     Rocket: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a6494fdac674e9e25ab_Rocket.png',
     Shield: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a65afcb2df2dc14f077_Shield.png',
     Kite: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a641491bb074fd24820_Kite.png',
-    Compass: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a657293e0eb108f464f_Compass.png'
+    Compass: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6633aa5665b730f6f5ae60bd_Compass.png'
   };
   const archetypeExcerptImage = archetypeExcerptUrls[chosenArchetype];
 
