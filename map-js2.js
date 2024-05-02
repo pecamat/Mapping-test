@@ -356,10 +356,10 @@ function downloadResults() {
 
   // URLs for the archetype excerpts
   const archetypeExcerptUrls = {
-    Rocket: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029b7f29c5f78fce8f72_Rocket.png',
-    Shield: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029b958e603526dc8e6e_Shield.png',
+    Rocket: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a6494fdac674e9e25ab_Rocket.png',
+    Shield: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a65afcb2df2dc14f077_Shield.png',
     Kite: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a641491bb074fd24820_Kite.png',
-    Compass: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029b8246134c7eed5b8b_Compass.png'
+    Compass: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a657293e0eb108f464f_Compass.png'
   };
   const archetypeExcerptImage = archetypeExcerptUrls[chosenArchetype];
 
@@ -370,8 +370,8 @@ function downloadResults() {
   doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 30, 0);
 
   const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/64897d518a6b10a15a478907_logo.png';
-  const logoImageWidth = 40;
-  doc.addImage(logoImageUrl, 'PNG', 15, 15, logoImageWidth, 0);
+  const logoImageWidth = 30;
+  doc.addImage(logoImageUrl, 'PNG', 165, 15, logoImageWidth, 0);
 
   const imageWidth = 180;
   const imageHeight = 0;
@@ -405,10 +405,10 @@ function downloadResults() {
   doc.link(shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10, { url: linkUrl2 });
 
 
-  const logoLinkBoxX = 15;
+  const logoLinkBoxX = 165;
   const logoLinkBoxY = 15;
   const logoLinkBoxWidth = logoImageWidth;
-  const logoLinkBoxHeight = 10;
+  const logoLinkBoxHeight = 6;
   doc.link(logoLinkBoxX, logoLinkBoxY, logoLinkBoxWidth, logoLinkBoxHeight, { url: 'https://www.supernova.io' });
 
   doc.save('scales.pdf');
