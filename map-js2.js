@@ -387,7 +387,7 @@ function downloadResults() {
 
   const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339b4a702b6a7e1fde7638_Learn%20more.png';
   const learnTestButtonWidth = 26;
-  const learnTestButtonX = 111;
+  const learnTestButtonX = 73;
   const learnTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(learnTestButtonUrl, 'PNG', learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10);
 
@@ -396,7 +396,7 @@ function downloadResults() {
 
   const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339934c313c834fda94865_Share%20on%20twitter.png';
   const shareTestButtonWidth = 34;
-  const shareTestButtonX = 73;
+  const shareTestButtonX = 103;
   const shareTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(shareTestButtonUrl, 'PNG', shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10);
 
@@ -410,7 +410,7 @@ function downloadResults() {
   const logoLinkBoxHeight = 10;
   doc.link(logoLinkBoxX, logoLinkBoxY, logoLinkBoxWidth, logoLinkBoxHeight, { url: 'https://www.supernova.io' });
 
-  doc.save('scales.pdf');
+  doc.save('DSArchetype_MappingTest_bySupernova.pdf');
 }
 
 const downloadButton = document.getElementById('download-button');
