@@ -379,12 +379,12 @@ function downloadResults() {
   const x = (pageWidth - imageWidth) / 2;
   const scaleGap = 27.5;
 
-  doc.addImage(goalScaleUrl, 'PNG', x, 95, imageWidth, imageHeight);
-  doc.addImage(methodScaleUrl, 'PNG', x, 95 + imageHeight + scaleGap, imageWidth, imageHeight);
-  doc.addImage(themingScaleUrl, 'PNG', x, 95 + 2 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(governanceScaleUrl, 'PNG', x, 95 + 3 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(structureScaleUrl, 'PNG', x, 95 + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(focusScaleUrl, 'PNG', x, 95 + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(goalScaleUrl, 'PNG', x, 100, imageWidth, imageHeight);
+  doc.addImage(methodScaleUrl, 'PNG', x, 100 + imageHeight + scaleGap, imageWidth, imageHeight);
+  doc.addImage(themingScaleUrl, 'PNG', x, 100 + 2 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(governanceScaleUrl, 'PNG', x, 100 + 3 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(structureScaleUrl, 'PNG', x, 100 + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(focusScaleUrl, 'PNG', x, 100 + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
 
   const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/648acc636853962bcd6aced0_learn-button.png';
   const learnTestButtonWidth = 30;
