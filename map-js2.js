@@ -369,9 +369,8 @@ function downloadResults() {
   // Adding the archetype excerpt image at the bottom
   doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 30, 0);
 
-  const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/64897d518a6b10a15a478907_logo.png';
-  const logoImageWidth = 30;
-  doc.addImage(logoImageUrl, 'PNG', 165, 15, logoImageWidth, 0);
+  const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6633905b7ba3174778069ae7_Heading.png';
+  doc.addImage(logoImageUrl, 'PNG', 15, 15, 180, 0);
 
   const imageWidth = 180;
   const imageHeight = 0;
@@ -387,18 +386,18 @@ function downloadResults() {
   doc.addImage(focusScaleUrl, 'PNG', x, 100 + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
 
   const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/648acc636853962bcd6aced0_learn-button.png';
-  const learnTestButtonWidth = 30;
-  const learnTestButtonX = (doc.internal.pageSize.getWidth() /2) + 5;
-  const learnTestButtonY = doc.internal.pageSize.getHeight() - 30;
+  const learnTestButtonWidth = 26;
+  const learnTestButtonX = 111;
+  const learnTestButtonY = doc.internal.pageSize.getHeight() - 32;
   doc.addImage(learnTestButtonUrl, 'PNG', learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10);
 
   const linkUrl = 'https://www.supernova.io/blog/introducing-the-design-system-mapping-tool-aligning-and-elevating-your-design-system';
   doc.link(learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10, { url: linkUrl });
 
   const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/648acd4a4571f61b4ddb0e27_share-twitter-button.png';
-  const shareTestButtonWidth = 35;
-  const shareTestButtonX = (doc.internal.pageSize.getWidth() /2) - shareTestButtonWidth - 5;
-  const shareTestButtonY = doc.internal.pageSize.getHeight() - 30;
+  const shareTestButtonWidth = 34;
+  const shareTestButtonX = 73;
+  const shareTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(shareTestButtonUrl, 'PNG', shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10);
 
   const linkUrl2 = 'https://twitter.com/intent/tweet?text=Just%20finished%20taking%20the%20Design%20System%20Mapping%20Test!%20Try%20it%20yourself:%20%5Bhttps%3A%2F%2Fsupernova.io%2Fdesign-system-mapping-tool%5D%20%23DesignSystems';
@@ -407,7 +406,7 @@ function downloadResults() {
 
   const logoLinkBoxX = 165;
   const logoLinkBoxY = 15;
-  const logoLinkBoxWidth = logoImageWidth;
+  const logoLinkBoxWidth = 30;
   const logoLinkBoxHeight = 6;
   doc.link(logoLinkBoxX, logoLinkBoxY, logoLinkBoxWidth, logoLinkBoxHeight, { url: 'https://www.supernova.io' });
 
