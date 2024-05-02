@@ -358,7 +358,7 @@ function downloadResults() {
   const archetypeExcerptUrls = {
     Rocket: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029b7f29c5f78fce8f72_Rocket.png',
     Shield: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029b958e603526dc8e6e_Shield.png',
-    Kite: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029bec0a9df042e50e42_Kite.png',
+    Kite: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66338a641491bb074fd24820_Kite.png',
     Compass: 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6631029b8246134c7eed5b8b_Compass.png'
   };
   const archetypeExcerptImage = archetypeExcerptUrls[chosenArchetype];
@@ -367,7 +367,7 @@ function downloadResults() {
   const startY = 25; // Example starting position
 
   // Adding the archetype excerpt image at the bottom
-  doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 120, 0);
+  doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 30, 0);
 
   const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/64897d518a6b10a15a478907_logo.png';
   const logoImageWidth = 40;
