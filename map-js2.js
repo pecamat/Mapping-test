@@ -395,7 +395,7 @@ function downloadResults() {
   doc.link(learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10, { url: linkUrl });
 
   const shareTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6633a5324976f105ddd9f25f_Share%20on%20twitter.png';
-  const shareTestButtonWidth = 34;
+  const shareTestButtonWidth = 53;
   const shareTestButtonX = 93;
   const shareTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(shareTestButtonUrl, 'PNG', shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10);
