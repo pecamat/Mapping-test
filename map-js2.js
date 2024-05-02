@@ -385,7 +385,7 @@ function downloadResults() {
   doc.addImage(structureScaleUrl, 'PNG', x, 102 + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
   doc.addImage(focusScaleUrl, 'PNG', x, 102 + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
 
-  const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339934b234725e28e95eea_Learn%20more.png';
+  const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339b4a702b6a7e1fde7638_Learn%20more.png';
   const learnTestButtonWidth = 26;
   const learnTestButtonX = 111;
   const learnTestButtonY = doc.internal.pageSize.getHeight() - 25;
@@ -406,7 +406,7 @@ function downloadResults() {
 
   const logoLinkBoxX = 145;
   const logoLinkBoxY = 15;
-  const logoLinkBoxWidth = 40;
+  const logoLinkBoxWidth = 30;
   const logoLinkBoxHeight = 10;
   doc.link(logoLinkBoxX, logoLinkBoxY, logoLinkBoxWidth, logoLinkBoxHeight, { url: 'https://www.supernova.io' });
 
