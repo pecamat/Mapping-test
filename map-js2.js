@@ -364,12 +364,12 @@ function downloadResults() {
   const archetypeExcerptImage = archetypeExcerptUrls[chosenArchetype];
 
   // Set Y-positions based on the elements in the screenshot
-  const startY = 25; // Example starting position
+  const startY = 30; // Example starting position
 
   // Adding the archetype excerpt image at the bottom
   doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 30, 0);
 
-  const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/6633905b7ba3174778069ae7_Heading.png';
+  const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/663396bd3d2dc20cabe6d882_Heading.png';
   doc.addImage(logoImageUrl, 'PNG', 15, 15, 180, 0);
 
   const imageWidth = 180;
@@ -388,7 +388,7 @@ function downloadResults() {
   const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/648acc636853962bcd6aced0_learn-button.png';
   const learnTestButtonWidth = 26;
   const learnTestButtonX = 111;
-  const learnTestButtonY = doc.internal.pageSize.getHeight() - 32;
+  const learnTestButtonY = doc.internal.pageSize.getHeight() - 25;
   doc.addImage(learnTestButtonUrl, 'PNG', learnTestButtonX, learnTestButtonY, learnTestButtonWidth, 10);
 
   const linkUrl = 'https://www.supernova.io/blog/introducing-the-design-system-mapping-tool-aligning-and-elevating-your-design-system';
@@ -404,10 +404,10 @@ function downloadResults() {
   doc.link(shareTestButtonX, shareTestButtonY, shareTestButtonWidth, 10, { url: linkUrl2 });
 
 
-  const logoLinkBoxX = 165;
+  const logoLinkBoxX = 145;
   const logoLinkBoxY = 15;
-  const logoLinkBoxWidth = 30;
-  const logoLinkBoxHeight = 6;
+  const logoLinkBoxWidth = 50;
+  const logoLinkBoxHeight = 10;
   doc.link(logoLinkBoxX, logoLinkBoxY, logoLinkBoxWidth, logoLinkBoxHeight, { url: 'https://www.supernova.io' });
 
   doc.save('scales.pdf');
