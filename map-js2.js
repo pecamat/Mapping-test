@@ -379,11 +379,11 @@ function downloadResults() {
   const scaleGap = 27.5;
 
   doc.addImage(goalScaleUrl, 'PNG', x, 102, imageWidth, imageHeight);
-  doc.addImage(methodScaleUrl, 'PNG', x, 102, + imageHeight + scaleGap, imageWidth, imageHeight);
-  doc.addImage(themingScaleUrl, 'PNG', x, 102, + 2 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(governanceScaleUrl, 'PNG', x, 102, + 3 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(structureScaleUrl, 'PNG', x, 102, + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
-  doc.addImage(focusScaleUrl, 'PNG', x, 102, + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(methodScaleUrl, 'PNG', x, 102 + imageHeight + scaleGap, imageWidth, imageHeight);
+  doc.addImage(themingScaleUrl, 'PNG', x, 102 + 2 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(governanceScaleUrl, 'PNG', x, 102 + 3 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(structureScaleUrl, 'PNG', x, 102 + 4 * (imageHeight + scaleGap), imageWidth, imageHeight);
+  doc.addImage(focusScaleUrl, 'PNG', x, 102 + 5 * (imageHeight + scaleGap), imageWidth, imageHeight);
 
   const learnTestButtonUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/66339934b234725e28e95eea_Learn%20more.png';
   const learnTestButtonWidth = 26;
