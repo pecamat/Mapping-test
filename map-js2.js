@@ -367,7 +367,7 @@ function downloadResults() {
   const startY = 25; // Example starting position
 
   // Adding the archetype excerpt image at the bottom
-  doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 30, 60);
+  doc.addImage(archetypeExcerptImage, 'PNG', 15, startY, doc.internal.pageSize.getWidth() - 30, 560);
 
   const logoImageUrl = 'https://uploads-ssl.webflow.com/632c2ca7090891667181cf26/64897d518a6b10a15a478907_logo.png';
   const logoImageWidth = 40;
